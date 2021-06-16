@@ -2,10 +2,26 @@ Metadata-Version: 1.2
 Name: traductor
 Version: 0.0.0
 Summary: Traductor CLI de palabras
-Home-page: UNKNOWN
+Home-page: https://github.com/lsantiago/demo_traductor
 Author: Santiago Quiñones
 Author-email: lsquinones@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: # Traductor
+        
+        Programa CLI para traducir de Español a Ingles. 
+        
+        ## Instalación
+        Utilice el siguiente comando
+        
+        ~~~
+        pip install traductor
+        ~~~
+        
+        ## Forma de uso
+        ~~~
+        >> traductor "hello"
+        
+        hello -> hola
+        ~~~
 Platform: UNKNOWN
 Requires-Python: >=3.8,<4.0
