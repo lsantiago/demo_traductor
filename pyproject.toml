@@ -3,6 +3,11 @@ name = "traductor"
 version = "0.0.0"
 description = "Traductor CLI de palabras"
 authors = ["Santiago Quiñones <lsquinones@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/lsantiago/demo_traductor"
+repository = "https://github.com/lsantiago/demo_traductor"
+keywords = ["traductor", "translate"]
 
 [tool.poetry.scripts]
 traductor = 'traductor.__main__:main'
