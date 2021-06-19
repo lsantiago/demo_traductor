@@ -8,4 +8,4 @@ def main(palabra_en):
 	translator = Translator(from_lang = 'english', to_lang='Spanish')
 	palabra_es = translator.translate(palabra_en)
 
-	print(f'{palabra_en} -> {palabra_es}')
+	print(f'{palabra_en} --> {palabra_es}')
